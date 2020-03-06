@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{89BE712F-4A48-B674-4105-8DB38E8E5730}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "audiov1",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MobileUtils",
+			"Enabled": true
+		}
+	]
+}
