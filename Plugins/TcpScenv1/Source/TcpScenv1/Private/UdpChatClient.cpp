@@ -27,6 +27,10 @@ void UdpChatClient::reliabledatareceivedcallback(const TArray<uint8>&, const FSt
 		//mp.PayLoad.Split("?", &left, &right);
 		Onorderproxytoreportdelegate.ExecuteIfBound(mp.PayLoad);
 	}
+	else if (mp.MT == DataType::PING)
+	{
+		ping();
+	}
 }
 void UdpChatClient::ping()
 {
